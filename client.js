@@ -9,9 +9,12 @@ const connect = function() {
 
   // interpret incoming data as text
   conn.setEncoding("utf8");
+
   conn.on("connect", () => {//listener for connect
-    console.log("Welcome, you are connected!");
+    console.log("Welcome, you are connected!");//Print a message to the screen when the connection is successfully established.
+    conn.write('Name: KR');//send initials to the snake
   });
+
   conn.on("data", (data) => {//listener for data, as a result we will see "you ded cuz you idled"
     console.log(data);
   });
