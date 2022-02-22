@@ -12,6 +12,12 @@ const handleUserInput = function(key) {//processing keys pressed
     connection.write("Move: down");
   } else if (key === "d") {
     connection.write("Move: right");
+  } else if (key === "q") {
+    connection.write("Say: Go snake go!");
+  } else if (key === "e") {
+    connection.write("Say: Sneaky move!");
+  } else if (key === "x") {
+    connection.write("Say: Keep snaking!");
   }
 };
 
