@@ -4,6 +4,7 @@ const { IP, PORT } = require("./constants");
 
 // establishes a connection with the game server
 const connect = function() {
+  console.log("Connecting ...");
   const conn = net.createConnection({
     host: IP,
     port: PORT,
@@ -15,6 +16,7 @@ const connect = function() {
   conn.on("connect", () => {//listener for connect
     console.log("Welcome, you are connected!");//print a message to the screen when the connection is successfully established.
     conn.write("Name: KR");//send initials to the snake
+    //experiments:
     // conn.write("Move: up");//Sending the string as data to the server, snake moves up
     // conn.write("Move: up");
     // setTimeout(() => {
@@ -30,8 +32,7 @@ const connect = function() {
   });
   return conn;
 };
-console.log("Connecting ...");
-//connect();// we do not need this call anymore. We are calling it in another file.
+
 
 module.exports = {
   connect

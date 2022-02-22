@@ -8,6 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
+!["snake view"](https://raw.githubusercontent.com/quackness/snake-client/56ca4232a1f55b45e7f477e0660426b1858498b7/snake.png)
+
 
 
 
@@ -28,4 +30,7 @@ Before you can run this client, you will need to be running the server side whic
     * "x"
     * "q"
 
+    
+## Credits
+The project was not built from scratch. The original author is [Tania Rascia](https://www.taniarascia.com/).
 
