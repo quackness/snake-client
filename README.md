@@ -30,4 +30,4 @@ Before you can run this client, you will need to be running the server side whic
     * "q"
     * 
 ## Credits
-The project was not built from scratch. The original author is [Tania Rascia] (https://www.taniarascia.com/).
+The project was not built from scratch. The original author is [Tania Rascia](https://www.taniarascia.com/).
