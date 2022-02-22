@@ -15,7 +15,7 @@ Before you can run this client, you will need to be running the server side whic
 ## Getting Started
 
 - Follow steps inside the [snek server repo](https://github.com/lighthouse-labs/snek-multiplayer) to run the server side.
-- Run the development snake client using the `node play.js` command.
+- Once the server is running, in a separate terminal run `node play.js` from the client directory.
 
 
 ## Game Instructions
@@ -25,10 +25,11 @@ Before you can run this client, you will need to be running the server side whic
     * "a" to move left
     * "s" to move down 
     * "d" to move right
-- game cheering messages will be displayed after pressing following keys:
+- game cheering canned messages will be displayed after pressing following keys:
     * "e"
     * "x"
     * "q"
+- terminate the game with CTR+C
 
     
 ## Credits
