@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["snake view"](https://github.com/quackness/snake-client/blob/master/snake.png?raw=true)
+
 
 
 ## Getting Started
