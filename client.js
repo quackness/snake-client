@@ -1,10 +1,12 @@
 const net = require("net");
+const { IP, PORT } = require("./constants");
+
 
 // establishes a connection with the game server
 const connect = function() {
   const conn = net.createConnection({
-    host: "localhost",
-    port: 50541
+    host: IP,
+    port: PORT,
   });
 
   // interpret incoming data as text
@@ -20,7 +22,7 @@ const connect = function() {
     // }, 50);
     // setInterval(() => {
     //   conn.write("Move: up");//setInterval as per the "Experiments"
-    // }, 2000);//hits the wall hahahah
+    // }, 2000);//hits the wall
   });
 
   conn.on("data", (data) => {//listener for data, as a result we will see "you ded cuz you idled"
