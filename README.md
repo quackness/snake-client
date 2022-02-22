@@ -1,4 +1,3 @@
-# snake-client
 # Snake Client Project
 
 Snake game is a very popular video game. It is a video game concept where the player maneuvers a dot and grows it by ‘eating’ pieces of food. As it moves and eats, it grows and the growing snake becomes an obstacle to smooth maneuvers. The goal is to grow it to become as big as possible without bumping into the side walls, or bumping into itself, upon which it dies.
@@ -10,8 +9,6 @@ Before you can run this client, you will need to be running the server side whic
 ## Final Product
 
 !["snake view"](https://raw.githubusercontent.com/quackness/snake-client/56ca4232a1f55b45e7f477e0660426b1858498b7/snake.png)
-
-
 
 
 
